@@ -1,7 +1,7 @@
 <h1 align="center">
     <img src="./assets/ruby.png" alt="ruby lang" width="120">
 </h1>
-<p>Ruby lang repository</p>
+<p align="center">Ruby lang repository</p>
 
 ## 🤔 Como contribuir
 
