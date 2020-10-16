@@ -6,7 +6,7 @@ class GoodDog
     @name = name
   end
   def speak(sound)
-    "#{sound}"
+    "#{name} says #{sound}"
   end
 end
 
@@ -16,3 +16,4 @@ puts sparky.speak("AU")
 puts sparky.name
 sparky.name = "Bethoven"
 puts sparky.name
+puts sparky.speak("Arf!")
