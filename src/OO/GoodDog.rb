@@ -1,14 +1,9 @@
 
 
 class GoodDog
+  attr_accessor :name # maneira embutida de criar getters and setters
   def initialize (name)
     @name = name
-  end
-  def get_name
-    @name
-  end
-  def name=(n)
-    @name = n
   end
   def speak(sound)
     "#{sound}"
@@ -18,6 +13,6 @@ end
 sparky = GoodDog.new("Sparky")
 puts sparky.speak("AU")
 
-puts sparky.get_name
+puts sparky.name
 sparky.name = "Bethoven"
-puts sparky.get_name
+puts sparky.name
