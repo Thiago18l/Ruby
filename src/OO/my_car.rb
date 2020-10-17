@@ -26,6 +26,13 @@ class MyCar
     self.color = new_color
     puts "Your new #{self.color} paint job looks great!"
   end
+  def self.gas_mileage (gallons, miles)
+    p "#{miles / gallons} miles per gallon of gas"
+  end
+
+  def to_s
+    "My car is a #{self.color}, #{self.year}, #{self.model}"
+  end
 end
 
 chevet = MyCar.new(1997, "blue", "chevet")
@@ -39,3 +46,5 @@ chevet.brake_speed(10)
 puts chevet.color
 chevet.spray_paint("Magento")
 puts chevet.color
+MyCar.gas_mileage(100, 1250)
+puts chevet
