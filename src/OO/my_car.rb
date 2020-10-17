@@ -22,6 +22,10 @@ class MyCar
     @speed = 0
     puts "Car is off"
   end
+  def spray_paint(new_color)
+    self.color = new_color
+    puts "Your new #{self.color} paint job looks great!"
+  end
 end
 
 chevet = MyCar.new(1997, "blue", "chevet")
@@ -32,3 +36,6 @@ puts chevet.speed
 chevet.brake_speed(5)
 puts chevet.speed
 chevet.brake_speed(10)
+puts chevet.color
+chevet.spray_paint("Magento")
+puts chevet.color
