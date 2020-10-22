@@ -9,3 +9,4 @@ def multiplication (a, b)
 end
 
 puts multiplication(32, 6)
+puts multiplication(2, 4)
